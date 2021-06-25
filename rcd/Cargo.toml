@@ -1,0 +1,9 @@
+[package]
+name = "rcd"
+version = "0.1.0"
+authors = ["Matej <dobrakmato@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+winapi = {version = "0.3.8", features = ["powrprof"]}
+windows-service = "0.2.0"
